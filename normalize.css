@@ -1,0 +1,155 @@
+/* honesty Page */
+.border {
+  border: ridge #8000f7 ;
+  border-width: 10px;
+}
+.border-2 {
+  width: 980px;
+  margin: 10px;
+}
+
+.border-3 {
+  margin: 50px;
+}
+/* Main-Menu */
+.logo {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2px;
+}
+
+.title {
+  display: inline-block;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  vertical-align: top;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+  color: rgb(43, 6, 68);
+  letter-spacing: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  text-align: center;
+}
+nav ul {
+  margin: 10px;
+  padding: 10px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 18%;
+  min-width: 90px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+  color: rgba(119, 0, 255, 0.253);
+}
+
+body{ 
+  background-image: linear-gradient(rgb(230, 207, 248), rgb(230, 207, 248));
+  width: 1100px;
+}
+.menu {
+  border-radius: 25px;
+  background: #8400ff;
+  padding: 20px;
+  width: 1400px;
+  height: 50px;
+  color: rgb(112, 6, 6);
+}
+
+/* Info page */
+#error {
+  margin: auto;
+  margin-left:  300px;
+  background-image: linear-gradient(rgb(212, 0, 255),rgb(255, 255, 255));  border: 5px solid grey;
+  float: left;
+  padding: 100px;
+  width: 25%;
+}
+#error h1 {
+  font-size: 35px;
+  margin: 10px 0 0 0;
+}
+#error p {
+  margin: 20px;
+}
+
+.header {
+  position: relative;
+  left: -20px;
+  width: 1050px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(119, 0, 255), rgb(255, 255, 255));
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Italic', cursive;
+  font-weight: 25;
+  color: rgb(255, 255, 255);
+  z-index:1;
+}
+
+
+.header h2 {
+  margin: auto;
+  text-align: left;
+}
+
+form {
+  margin: 0 0 0 50px;
+}
+
+.form-adj {
+  padding: 20px;
+}
+.radio-title {
+  padding: 20px;
+}
+.radio-form ul {
+  list-style: none;
+}
+
+button {
+  margin: 20px;
+}
+
+#footer {
+  width: 200px;
+  margin: 20px;
+  background-color: #ff02c0;
+  height: 30px;
+  text-align: center;
+}
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+#left-hand-side{
+  position:absolute;
+  overflow-x: hidden;
+  z-index: 1;
+  left: 20px;
+  width: 250px;
+  font-size: 15px;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(76, 0, 255));
+  border-radius: 20px;
+  font-weight:500;
+  font-family: 'Italic', cursive;
+}
